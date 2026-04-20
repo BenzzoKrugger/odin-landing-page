@@ -1,0 +1,31 @@
+html, body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+nav.navbar {
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1024px;
+    flex-grow: 1;
+}
+
+section.blue {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+}
