@@ -64,6 +64,7 @@ nav {
   color: #e5e7eb;
   font-size: 20px;
   font-weight: 600;
+  margin-top: 15px;
 }
 
 .hero-content {
@@ -145,4 +146,39 @@ nav {
     font-weight: bold;
     font-size: 18px;
     text-align: right;
+}
+
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    color: #e5e7eb;
+    margin: 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+.cta-content > h3, p{
+    margin: 0px;
+}
+
+.cta-container > button {
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: #e5e7eb;
+  color: #e5e7eb;
+  font-size: 20px;
+  font-weight: 600;
 }
