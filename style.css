@@ -12,20 +12,22 @@ ul {
     gap: 20px;
 }
 
-nav.navbar {
-    color: #f9faf8;
+nav {
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1024px;
-    flex-grow: 1;
 }
 
-section.blue {
-    background-color: #1F2937;
+.navbar, .hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
     font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
 }
+
